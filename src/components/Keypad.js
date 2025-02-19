@@ -6,7 +6,7 @@ function Keypad (){
     }
     return (
         <div>
-            <input type="password" onChange={handleChange} />;
+            <input type="password" onChange={handleChange} />
         </div> //test: rendering intput
     );
 }

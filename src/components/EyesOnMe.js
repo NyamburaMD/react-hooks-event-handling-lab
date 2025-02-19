@@ -7,7 +7,7 @@ function EyesOnMe() {
     function handleBlur() {
         console.log("Hey! Eyes on me!");
     }
-   return <button>Eyes on me</button>;
+   return <button onFocus={handleFocus} onBlur={handleBlur}>Eyes on me</button>;
 }
 
 export default EyesOnMe;
